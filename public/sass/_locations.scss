@@ -1,0 +1,57 @@
+#input-table tbody td {
+    color: $black-text;
+}
+#input-table tbody tr:first-child td:first-child {
+    color: $nechetnye-stroki;
+}
+#input-table tbody tr:first-child + tr td:first-child {
+    color: $chetnye-stroki;
+}
+#input-table tbody tr:first-child + tr + tr td:first-child {
+    color: $nechetnye-stroki;
+}
+#input-table tbody tr:first-child + tr + tr + tr td:first-child {
+    color: $chetnye-stroki;
+}
+#input-table tbody tr:first-child + tr + tr + tr + tr td:first-child {
+    color: $nechetnye-stroki;
+}
+
+html {
+    font-size: 16px
+}
+table span {
+    font-size: 40px;
+}
+
+.name {
+    text-align: left;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+#output-table {
+    position: absolute;
+    top: 82px;
+    left: 12px;
+}
+#input-table {
+    position: absolute;
+    top: 82px;
+    left: 750px;
+}
+div h1 {
+    position: absolute;
+    top: 760px;
+    left: 12px;
+    text-align: left;
+    padding-bottom: 200px;
+}
+
+.under-thing {
+    border: solid;
+    background-color: gold;
+    position: absolute;
+/*    visibility: hidden;*/
+    z-index: 1;
+}
